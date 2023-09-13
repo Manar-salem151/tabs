@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    padding-top: 0px;
+    background-color: black;
+    color:#fff;
+}
+
+.btns{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+}
+
+.btns button{
+    padding:  5px 20px;
+    width: calc(92% / 3);
+    display: block;
+    margin: auto;
+}
+
+.content div{
+    background-color: rgba(159, 155, 155, 0.182);
+    margin: 10px;
+    padding: 5px;
+    display: none;
+}
+
+.active{
+    background-color: orangered;
+}
+
+.show{
+    display: block !important;
+}
